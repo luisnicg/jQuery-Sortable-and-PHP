@@ -42,7 +42,7 @@
 					<a href="#" id="delete_button" class="button display-none">Delete selected</a>
 					<div class="panel callout radius hide-for-small">
 					  <h5>Prueba de desarrollo tecnológico</h5>
-					  <p>La meta es construir un sistema PHP sencillo (que funcione sólo en 1 pantalla) para almacenar bookmarks en una base de datos MySQL, en donde la comunicación entre el script y la base de datos se realice en el background mediante un canal de request y response de AJAX.</p>
+					  <p>This a sample.</p>
 					</div>
 				</div>
 			</div>
