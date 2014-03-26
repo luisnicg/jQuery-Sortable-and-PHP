@@ -1,0 +1,74 @@
+body {
+	background: #f6f6f6;
+	background-image: url('../img/bgr.png');
+	color: #888888;
+	font-family: "Open Sans";
+}
+.wrapper{
+	margin: 20px auto;
+	padding-bottom: 20px;
+	background: #fff;
+	box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+h1,h1,h3,h4,h5,h6{
+	font-family: "Open Sans","Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+ #sortable{
+	list-style-type: none; 
+	margin: 0; padding: 0; 
+	width: 100%; 
+ }
+ #sortable li{
+	margin: 0 5px 3px 0px;
+	padding: 5px 5px 5px 20px; 
+	font-size: 0.8125rem;
+	height: 1.85em; 
+ }
+ #sortable li a{
+	color:#fff;
+ }
+  #sortable li a:hover{
+	color:#ccc;
+ }
+ html>body #sortable li {
+  	height: 1.85em; 
+  	line-height: 1.2em; 
+ }
+ .ui-state-highlight{ 
+	height: 1.5em;
+	line-height: 1.2em; 
+	border: 1px solid #fcefa1;
+	background: #fbf9ee;
+	color: #363636;
+}
+
+.ui-state-default{
+	border-style: solid;
+	border-width: 1px;
+	display: block;
+	position: relative;
+	background-color: #2ba6cb;
+	border-color: #258faf;
+	color: white;
+}
+.checkbox{
+	position: absolute;
+	left: 5px;
+	display: none;
+}
+.edit-ico{
+	position: relative;
+	float: right;
+	border: 0;
+	display: none;
+	cursor: pointer;
+}
+.display-show{
+	display: block;
+}
+.display-none{
+	display: none !important;
+}
