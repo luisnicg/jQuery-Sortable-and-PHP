@@ -12,3 +12,9 @@ CREATE TABLE `bookmarks` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
+
+In connect.php you need to write your mysql credentials
+
+```
+$databaseSetup = new cbSQLConnectConfig( cbSQLConnectVar::DB_MYSQL, "localhost","3306","mybookmarks","root",""); 
+```
