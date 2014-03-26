@@ -2,6 +2,7 @@
 
 This is the table
 
+```
 CREATE TABLE `bookmarks` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT COMMENT 'Índice de la tabla',
   `url` varchar(555) DEFAULT NULL COMMENT 'Contiene la dirección URL del bookmark',
@@ -10,3 +11,4 @@ CREATE TABLE `bookmarks` (
   `estado` varchar(1) DEFAULT NULL COMMENT '1: Activo 0: Inactivo',
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+```
